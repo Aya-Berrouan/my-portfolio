@@ -1,0 +1,276 @@
+{
+  "header": {
+    "title": "Aya",
+    "bio": "Développeuse full stack et étudiante en science des données passionnée par la création d'expériences web belles et fonctionnelles."
+  },
+  "navigation": {
+    "bio": "Bio",
+    "projects": "Projets",
+    "pitch": "Pitch",
+    "skills": "Compétences",
+    "experiences": "Expérience",
+    "journey": "Études",
+    "contact": "Contact",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "testimonials": "Témoignages"
+  },
+  "downloadCV": "Télécharger CV",
+  "badge": "DÉVELOPPEUSE FULL STACK ET ÉTUDIANTE EN SCIENCE DES DONNÉES",
+  "bio": {
+    "title": "À Propos de Moi",
+    "paragraph1": "Bonjour, je suis Aya Berrouan, une développeuse curieuse et créative motivée par un amour profond pour la technologie et la résolution de problèmes. Basée à Casablanca, je poursuis actuellement une licence professionnelle en développement Full-Stack et DevOps, où je me mets constamment au défi d'apprendre de nouveaux frameworks, outils et modèles de conception.",
+    "paragraph2": "Ce qui alimente mon travail, c'est la joie de transformer des idées en réalités numériques — de l'esquisse d'interfaces à l'écriture de code propre et évolutif. Je suis passionnée par l'apprentissage, l'évolution à travers la collaboration, et la création d'expériences qui comptent pour les utilisateurs réels.\n\nAu-delà du code, je valorise la simplicité, l'empathie et l'amélioration continue — tant dans la technologie que dans la vie."
+  },
+  "portfolio": {
+    "title": "Mes Projets",
+    "project1": {
+      "title": "ASAClothing – Plateforme E-commerce de Mode",
+      "description": "Une boutique en ligne moderne et responsive pour les vêtements, chaussures et accessoires, dédiée aux hommes, femmes et enfants. La plateforme offre une navigation intuitive, un filtrage des produits et une expérience d'achat fluide.",
+      "technologies": "React • Laravel • MySQL • CSS • Figma"
+    },
+    "project2": {
+      "title": "Glowora – Plateforme E-commerce de Bougies Personnalisées",
+      "description": "Une plateforme e-commerce pour bougies artisanales permettant aux utilisateurs de personnaliser leurs propres bougies avec un aperçu visuel. Inclut des fonctionnalités de compte utilisateur, de gestion des commandes, d'intégration de paiement et des modes clair et sombre.",
+      "technologies": "React.js • Tailwind CSS • Laravel • MySQL • Stripe • LLM"
+    },
+    "project3": {
+      "title": "VertuArena – Plateforme de Jeux Multijoueurs",
+      "description": "Une application web offrant un gameplay multijoueur compétitif avec matchmaking en temps réel, classements mondiaux, statistiques des joueurs et profils utilisateurs personnalisés dans une interface vibrante et interactive.",
+      "technologies": "React.js • Tailwind CSS • Laravel • MySQL • Pusher"
+    },
+    "project4": {
+      "title": "Livres de Hadith Islamiques – Plateforme de Contenu Religieux",
+      "description": "Un site web entièrement en arabe où les utilisateurs peuvent lire et télécharger des livres liés aux Hadiths et aux enseignements islamiques. Conçu pour l'accessibilité et la facilité d'utilisation sur tous les appareils.",
+      "technologies": "React • Laravel • MySQL • Bootstrap"
+    },
+    "project5": {
+      "title": "Yelloweb – Site Vitrine d'Entreprise",
+      "description": "Une page d'atterrissage claire et responsive présentant les services et les détails de l'entreprise. Comprend un formulaire de contact et des sections de contenu conçues pour augmenter l'engagement et la confiance.",
+      "technologies": "HTML • CSS • JavaScript • jQuery • CodeIgniter"
+    }
+  },
+  "pitch": {
+    "title": "Mon Pitch",
+    "paragraph1": "Bonjour, je m'appelle Aya Berrouan, et je suis une développeuse Full-Stack et analyste de données motivée, avec une expérience pratique dans le développement d'applications web interactives et de visualisations de données perspicaces. J'ai réussi à construire des plateformes intuitives comme Glowora, un site e-commerce responsive, et un système dynamique de matchmaking pour jeux multijoueurs, améliorant significativement l'engagement et la performance des utilisateurs.",
+    "paragraph2": "Mes compétences principales incluent une expertise en React.js, Laravel, et des outils d'analyse de données comme Power BI et Tableau. Ce qui me distingue, c'est mon adaptabilité, ma capacité à apprendre rapidement et mon engagement envers le travail d'équipe collaboratif. En tirant parti de ces forces, je fournis constamment des solutions numériques innovantes qui optimisent les processus et améliorent l'expérience utilisateur.\n\nJe suis actuellement ouverte à de nouvelles opportunités en tant que développeuse Full-Stack ou analyste de données au sein d'une entreprise tournée vers l'avenir qui valorise la créativité et la croissance. Si vous ou quelqu'un que vous connaissez recherchez une personne capable d'apporter des idées fraîches et des solutions techniques impactantes, n'hésitez pas à me contacter.\n\nCollaborons pour élever votre présence numérique et faciliter la vie de vos utilisateurs.\n\nMerci beaucoup."
+  },
+  "elevatorPitch": {
+    "title": "Pourquoi Travailler Avec Moi",
+    "paragraph1": "Je suis une développeuse Full Stack qui comble le fossé entre un design magnifique et une fonctionnalité impeccable. Avec une expertise en technologies frontend et backend, je crée des expériences web fluides qui engagent les utilisateurs et génèrent des résultats commerciaux.",
+    "paragraph2": "J'aborde chaque projet avec créativité, précision technique et dévouement pour dépasser les attentes des clients. Collaborons pour donner vie à votre vision!"
+  },
+  "themeSwitcher": {
+    "lightMode": "Passer au mode clair",
+    "darkMode": "Passer au mode sombre",
+    "changeTheme": "Changer de thème"
+  },
+  "language": {
+    "select": "Choisir la langue",
+    "en": "Anglais",
+    "fr": "Français",
+    "ar": "Arabe"
+  },
+  "socialLinks": {
+    "email": "Envoyez-moi un email",
+    "github": "Profil GitHub",
+    "linkedin": "Profil LinkedIn"
+  },
+  "skills": {
+    "title": "Mes Compétences",
+    "subtitle": "Technologies et outils avec lesquels je travaille",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Outils & Autres"
+    },
+    "levels": {
+      "expert": "Expert",
+      "advanced": "Avancé",
+      "intermediate": "Intermédiaire",
+      "beginner": "Débutant"
+    },
+    "items": {
+      "react": {
+        "name": "React",
+        "category": "frontend",
+        "level": 85
+      },
+      "html": {
+        "name": "HTML5",
+        "category": "frontend",
+        "level": 90
+      },
+      "css": {
+        "name": "CSS3",
+        "category": "frontend",
+        "level": 85
+      },
+      "javascript": {
+        "name": "JavaScript",
+        "category": "frontend",
+        "level": 85
+      },
+      "bootstrap": {
+        "name": "Bootstrap",
+        "category": "frontend",
+        "level": 85
+      },
+      "tailwind": {
+        "name": "Tailwind CSS",
+        "category": "frontend",
+        "level": 80
+      },
+      "angular": {
+        "name": "Angular",
+        "category": "frontend",
+        "level": 65
+      },
+      "php": {
+        "name": "PHP",
+        "category": "backend",
+        "level": 80
+      },
+      "laravel": {
+        "name": "Laravel",
+        "category": "backend",
+        "level": 70
+      },
+      "java": {
+        "name": "Java",
+        "category": "backend",
+        "level": 65
+      },
+      "springboot": {
+        "name": "Spring Boot",
+        "category": "backend",
+        "level": 60
+      },
+      "mysql": {
+        "name": "MySQL",
+        "category": "backend",
+        "level": 75
+      },
+      "mongodb": {
+        "name": "MongoDB",
+        "category": "backend",
+        "level": 65
+      },
+      "git": {
+        "name": "Git",
+        "category": "tools",
+        "level": 85
+      },
+      "github": {
+        "name": "GitHub",
+        "category": "tools",
+        "level": 85
+      },
+      "gitlab": {
+        "name": "GitLab",
+        "category": "tools",
+        "level": 80
+      },
+      "powerbi": {
+        "name": "Power BI",
+        "category": "tools",
+        "level": 75
+      },
+      "figma": {
+        "name": "Figma",
+        "category": "tools",
+        "level": 70
+      },
+      "docker": {
+        "name": "Docker",
+        "category": "tools",
+        "level": 65
+      }
+    }
+  },
+  "journey": {
+    "title": "Études",
+    "subtitle": "Mon parcours académique et mes qualifications",
+    "timeline": [
+      {
+        "year": "2025 - 2026",
+        "icon": "📊",
+        "title": "Programme de Science des Données",
+        "description": "Alx — En cours\n\nFormation avancée en analyse de données, apprentissage automatique et modélisation statistique avec des applications pratiques dans des scénarios réels."
+      },
+      {
+        "year": "2024 - 2025",
+        "icon": "🎓",
+        "title": "Licence Professionnelle en Développement Full-Stack & DevOps",
+        "description": "Faculté des Sciences Aïn Chock — En cours\n\nÉtudes axées sur le développement web moderne, les systèmes backend sécurisés et les pratiques DevOps."
+      },
+      {
+        "year": "2022 - 2024",
+        "icon": "👩‍💻",
+        "title": "Technicien Spécialisé en Développement Full-Stack",
+        "description": "Institut Spécialisé des Technologies Appliquées - NTIC 2 SM\n\nFormation pratique en développement frontend/backend, avec une forte utilisation de React.js et Laravel."
+      },
+      {
+        "year": "2020 - 2021",
+        "icon": "📚",
+        "title": "Baccalauréat Scientifique (Mention Bien)",
+        "description": "Lycée Ouad El-Dahab"
+      }
+    ]
+  },
+  "experiences": {
+    "title": "Mon Expérience",
+    "subtitle": "Stages professionnels et expérience de travail",
+    "timeline": [
+      {
+        "year": "Déc 2024 – Jan 2025",
+        "icon": "💻",
+        "title": "Stagiaire en Développement Full-Stack",
+        "company": "CodeAlpha",
+        "description": "• Conception et développement de Glowora, une plateforme e-commerce responsive qui a amélioré l'engagement des utilisateurs grâce à une interface intuitive.\n\n• Développement d'un système de matchmaking multijoueur en temps réel, améliorant significativement la vitesse et la qualité des connexions utilisateurs."
+      },
+      {
+        "year": "Nov 2024 – Déc 2024",
+        "icon": "📊",
+        "title": "Stagiaire Analyste de Données",
+        "company": "DHL Express",
+        "description": "• Acquisition d'une expérience pratique avec Power BI pour explorer les techniques de visualisation de données.\n\n• Apprentissage des compétences fondamentales en nettoyage et manipulation de données, et travail avec des ensembles de données réels.\n\n• Développement de compétences essentielles en pensée analytique et reporting."
+      },
+      {
+        "year": "Mar 2024 – Avr 2024",
+        "icon": "🌐",
+        "title": "Stagiaire Développeur Web",
+        "company": "Black Lemon Digital",
+        "description": "• Développement d'une page d'atterrissage responsive utilisant HTML, CSS, JavaScript, jQuery et CodeIgniter, améliorant la génération de leads.\n\n• Collaboration avec des designers pour assurer la cohérence de la marque et offrir une expérience utilisateur fluide."
+      }
+    ]
+  },
+  "directions": {
+    "ltr": true
+  },
+  "contact": {
+    "title": "Contactez-moi",
+    "subtitle": "N'hésitez pas à me contacter pour toute question ou demande.",
+    "formTitle": "Envoyer un message",
+    "name": "Nom",
+    "email": "E-mail",
+    "message": "Message",
+    "send": "Envoyer le message",
+    "sending": "Envoi en cours...",
+    "success": "Message envoyé avec succès ! Je vous répondrai dès que possible.",
+    "error": "Échec de l'envoi du message. Veuillez réessayer ou me contacter directement."
+  },
+  "testimonials": {
+    "title": "Témoignages",
+    "subtitle": "Ce que les gens disent de mon travail et de ma collaboration",
+    "codeAlpha": {
+      "title": "CodeAlpha - Lettre de recommandation",
+      "position": "Stagiaire en développement Full-Stack",
+      "description": "Lettre de recommandation officielle de CodeAlpha soulignant mes performances pendant la période de stage, mettant en évidence mes compétences techniques et mes capacités de travail en équipe.",
+      "viewDocument": "Voir la lettre de recommandation"
+    }
+  },
+  "blog": {
+    "title": "Blog Tech"
+  }
+} 
