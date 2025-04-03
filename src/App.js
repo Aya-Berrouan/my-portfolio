@@ -862,7 +862,7 @@ function App() {
                     </svg>
                     {t('skills.categories.frontend')}
                   </h3>
-                  <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                  <div className="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
                     {Object.entries(t('skills.items', { returnObjects: true }))
                       .filter(([_, skill]) => skill.category === 'frontend')
                       .map(([key, skill]) => (
@@ -916,7 +916,7 @@ function App() {
                     </svg>
                     {t('skills.categories.backend')}
                   </h3>
-                  <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                  <div className="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
                     {Object.entries(t('skills.items', { returnObjects: true }))
                       .filter(([_, skill]) => skill.category === 'backend')
                       .map(([key, skill]) => (
@@ -970,7 +970,7 @@ function App() {
                     </svg>
                     {t('skills.categories.tools')}
                   </h3>
-                  <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                  <div className="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
                     {Object.entries(t('skills.items', { returnObjects: true }))
                       .filter(([_, skill]) => skill.category === 'tools')
                       .map(([key, skill]) => (
