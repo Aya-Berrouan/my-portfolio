@@ -622,7 +622,7 @@ function App() {
               {t('header.bio')}
         </p>
         <a
-              href={process.env.PUBLIC_URL + "/files/CV Aya Berrouan.pdf"} 
+              href={process.env.PUBLIC_URL + `/files/CV Aya Berrouan(${i18n.language === 'en' ? 'English' : 'Français'}).pdf`} 
               download
               style={{ marginTop: '1rem', backgroundColor: 'var(--color-primary)', color: 'white', padding: '0.5rem 1rem', borderRadius: '9999px', display: 'inline-block', boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)', transition: 'all 0.3s ease' }}
               onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-2px)'}
@@ -722,15 +722,19 @@ function App() {
               </p>
               </div>
               
-              {/* Pitch Section Inside Bio */}
+              {/* Video Pitch Section Inside Bio */}
               <div>
                 <h2 className="text-xl sm:text-2xl font-bold mb-3 md:mb-4">{t('pitch.title')}</h2>
-                <p className={`text-sm sm:text-base mb-3 md:mb-4 ${darkMode ? 'text-soft-gray' : 'text-dark-gray'}`}>
-                  {t('pitch.paragraph1')}
-                </p>
-                <p className={`text-sm sm:text-base ${darkMode ? 'text-soft-gray' : 'text-dark-gray'}`}>
-                  {t('pitch.paragraph2')}
-                </p>
+                <div className="relative w-full" style={{padding: '56.25% 0 0 0'}}>
+                  <iframe 
+                    src="https://player.vimeo.com/video/1072953539?h=f7b2881c4b&badge=0&autopause=0&player_id=0&app_id=58479" 
+                    frameBorder="0" 
+                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" 
+                    style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}} 
+                    title="Pitch"
+                  ></iframe>
+                </div>
+                <script src="https://player.vimeo.com/api/player.js"></script>
               </div>
             </div>
           )}
