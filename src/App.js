@@ -1537,6 +1537,18 @@ function App() {
           </button>
         </div>
       </div>
+
+      {/* Copyright Footer */}
+      <footer className="mt-auto py-6 text-center" style={{
+        backgroundColor: darkMode ? '#0f1011' : '#f8fafc',
+        borderTop: darkMode ? '1px solid #262b31' : '1px solid #e2e8f0'
+      }}>
+        <div className="container mx-auto px-4">
+          <p className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
+            © {new Date().getFullYear()} Aya Berrouan. {t('footer.rights')}
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }

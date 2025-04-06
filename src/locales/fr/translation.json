@@ -76,6 +76,9 @@
     "github": "Profil GitHub",
     "linkedin": "Profil LinkedIn"
   },
+  "footer": {
+    "rights": "Tous droits réservés."
+  },
   "skills": {
     "title": "Mes Compétences",
     "subtitle": "Technologies et outils avec lesquels je travaille",
@@ -273,4 +276,4 @@
   "blog": {
     "title": "Blog Tech"
   }
-} 
+}

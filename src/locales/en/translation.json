@@ -83,6 +83,9 @@
     "github": "GitHub Profile",
     "linkedin": "LinkedIn Profile"
   },
+  "footer": {
+    "rights": "All rights reserved."
+  },
   "skills": {
     "title": "My Skills",
     "subtitle": "Technologies and tools I work with",
@@ -321,4 +324,4 @@
       ]
     }
   }
-} 
+}
