@@ -870,7 +870,7 @@ function App() {
                     {Object.entries(t('skills.items', { returnObjects: true }))
                       .filter(([_, skill]) => skill.category === 'frontend')
                       .map(([key, skill]) => (
-                        <div key={key} className="skill-item flex flex-col items-center" style={{ width: '100px' }}> {/* Set a fixed width */}
+                        <div key={key} className="skill-item flex flex-col items-center" > {/* Set a fixed width */}
                           <div className="mb-2 flex flex-col items-center">
                             <img 
                               src={key === 'powerbi' ? `/images/skills/${key}.png` : `/images/skills/${key}.svg`}
