@@ -658,10 +658,10 @@ function App() {
           </div>
       </header>
 
-        {/* Navigation Tabs - Mobile */}
-        <nav className={`fixed inset-0 z-40 md:hidden transform ${mobileMenuOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out flex flex-col justify-center items-center ${darkMode ? 'bg-dark-bg bg-opacity-95' : 'bg-light-bg bg-opacity-95'}`}>
-          <ul className="flex flex-col space-y-8 text-center">
-            {['Bio', 'Projects', 'Portfolio', 'Blog', 'Testimonials', 'Skills', 'Experiences', 'Journey', 'Contact'].map((tab) => (
+                 {/* Navigation Tabs - Mobile */}
+         <nav className={`fixed inset-0 z-40 md:hidden transform ${mobileMenuOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out flex flex-col justify-center items-center ${darkMode ? 'bg-dark-bg bg-opacity-95' : 'bg-light-bg bg-opacity-95'}`}>
+           <ul className="flex flex-col space-y-8 text-center">
+             {['Bio', 'Projects', 'Blog', 'Testimonials', 'Skills', 'Experiences', 'Journey', 'Contact'].map((tab) => (
               <li key={tab} className="relative">
                 <button
                   className={`font-medium text-xl ${
@@ -683,10 +683,10 @@ function App() {
           </ul>
         </nav>
 
-        {/* Navigation Tabs - Desktop */}
-        <nav className={`mb-8 md:mb-12 border-b ${darkMode ? 'border-gray-700' : 'border-gray-300'} hidden md:block`}>
-          <ul className="flex space-x-8">
-            {['Bio', 'Projects', 'Portfolio', 'Blog', 'Testimonials', 'Skills', 'Experiences', 'Journey', 'Contact'].map((tab) => (
+                 {/* Navigation Tabs - Desktop */}
+         <nav className={`mb-8 md:mb-12 border-b ${darkMode ? 'border-gray-700' : 'border-gray-300'} hidden md:block`}>
+           <ul className="flex space-x-8">
+             {['Bio', 'Projects', 'Blog', 'Testimonials', 'Skills', 'Experiences', 'Journey', 'Contact'].map((tab) => (
               <li key={tab} className="relative pb-2">
                 <button
                   className={`font-medium text-lg hover-scale ${
@@ -722,65 +722,11 @@ function App() {
               </p>
               </div>
               
-              {/* Video Pitch Section Inside Bio */}
-              <div>
-                <h2 className="text-xl sm:text-2xl font-bold mb-3 md:mb-4">{t('pitch.title')}</h2>
-                <div className="relative w-full" style={{padding: '56.25% 0 0 0'}}>
-                  <iframe 
-                    src="https://player.vimeo.com/video/1072953539?h=f7b2881c4b&badge=0&autopause=0&player_id=0&app_id=58479" 
-                    frameBorder="0" 
-                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" 
-                    style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}} 
-                    title="Pitch"
-                  ></iframe>
-                </div>
-                <script src="https://player.vimeo.com/api/player.js"></script>
-              </div>
+
             </div>
           )}
           
-          {activeTab === 'Portfolio' && (
-            <div>
-              <h2 className="text-xl sm:text-2xl font-bold mb-3 md:mb-4">Portfolio</h2>
-              <div className="grid grid-cols-1 gap-4 md:gap-6">
-                <div className={`p-4 rounded-lg hover-scale ${darkMode ? 'bg-dark-bg' : 'bg-light-bg'}`}>
-                  <h3 className="text-base sm:text-lg font-bold mb-2">🏃‍♀️ RunCasablanca - Team Project</h3>
-                  <p className={`text-sm sm:text-base mb-3 ${darkMode ? 'text-soft-gray' : 'text-dark-gray'}`}>
-                    A collaborative project that promotes running events and activities in Casablanca, connecting runners and enhancing the local running community through technology.
-                  </p>
-                  <div className="text-xs sm:text-sm text-primary font-code mb-4">React • Node.js • Express • MongoDB • Tailwind CSS</div>
-                  
-                  <div className="aspect-video w-full mb-4 rounded-lg overflow-hidden">
-                    <iframe 
-                      className="w-full h-full"
-                      src="https://www.youtube.com/embed/PFEpE2Q5Qos" 
-                      title="RunCasablanca Project Demo" 
-                      frameBorder="0" 
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                      allowFullScreen>
-                    </iframe>
-                  </div>
-                  
-                  <div className="mt-2">
-                    <a 
-                      href="/files/RunCasablanca Project.pptx.pdf" 
-                      target="_blank" 
-                      rel="noopener noreferrer" 
-                      className="inline-flex items-center text-sm font-medium transition-colors"
-                      style={{ color: 'var(--color-primary)' }}
-                      onMouseOver={e => e.currentTarget.style.color = 'var(--color-secondary)'}
-                      onMouseOut={e => e.currentTarget.style.color = 'var(--color-primary)'}
-                    >
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                      </svg>
-                      View Project Presentation
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          )}
+
 
           {activeTab === 'Projects' && (
             <div>
